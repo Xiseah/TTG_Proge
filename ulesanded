@@ -1,0 +1,118 @@
+LISTIDE ÜLESANDED:
+
+1. Tagasta true kui Listi pikkus on suurem ühest ja Listi esimene ning viimane element on võrdsed.
+
+	System.out.println(sameFirstLast(Arrays.asList(1, 2, 3))); // false
+	System.out.println(sameFirstLast(Arrays.asList(1, 2, 3, 1))); // true
+	System.out.println(sameFirstLast(Arrays.asList(1))); // false
+
+	public static boolean sameFirstLast(List<Integer> nums) {
+  
+	}
+
+
+2. Tagasta uus List mis koosneb π (pi) esimesest kolmest numbrist.
+
+	System.out.println(makePi()); // [3, 1, 4]
+
+	public static List<Integer> makePi() {
+	  
+	}
+
+
+3. Tagasta number mis on Listi kõikide elementide summa.
+
+	System.out.println(sum(Arrays.asList(1, 2, 3, 4))); // 10
+	System.out.println(sum(Arrays.asList(5, 2, 11))); // 18
+	System.out.println(sum(Arrays.asList(7, 0, 0, 0, 0, 0))); // 7
+
+	public static int sum(List<Integer> nums) {
+  
+	}
+
+
+4. Tagasta List kus iga sisend Listi element on ühe koha võrra vasakule liigutatud.
+
+	System.out.println(rotateLeft(Arrays.asList(1, 2, 3))); // [2, 3, 1]
+	System.out.println(rotateLeft(Arrays.asList(5, 11, 9))); // [11, 9, 5]
+	System.out.println(rotateLeft(Arrays.asList(7, 0, 0))); // [0, 0, 7]
+
+	public static List<Integer> rotateLeft(List<Integer> nums) {
+  
+	}
+
+
+5. Tagasta List mis on sama pikk kui sisend List, aga koosneb ainult sisend Listi kõige suuremast elemendist.
+
+	System.out.println(maxList(Arrays.asList(1, 2, 3, 4))); // [4, 4, 4, 4]
+	System.out.println(maxList(Arrays.asList(11, 5, 9))); // [11, 11, 11]
+	System.out.println(maxList(Arrays.asList(1, 2, 10, 4, 5))); // [10, 10, 10, 10, 10]
+
+	public static List<Integer> maxList(List<Integers> nums) {
+  
+	}
+
+
+6. Tagasta true kui sisend List sisaldab kahte või kolme.
+
+	System.out.println(has23(Arrays.asList(1, 2, 4))); // true
+	System.out.println(has23(Arrays.asList(11, 42, 3))); // true
+	System.out.println(has23(Arrays.asList(10, 20, 30, 40))); // false
+
+	public static boolean has23(List<Integer> nums) {
+	  
+	}
+
+6. Tagasta true kui sisend List sisaldab kahte kahte või kahte kolme.
+
+	System.out.println(double23Arrays.asList(1, 2, 3, 4))); // false
+	System.out.println(double23(Arrays.asList(1, 2, 3, 4, 5, 7 ,2)); // true
+	System.out.println(double23([Arrays.asList(1, 2, 3, 3])); // true
+
+	public static boolean double23(List<Integer> nums) {
+	  
+	}
+
+
+7. Tagasta List kus kõik kolmed mis järgnevad kahele on nulliks muudetud.
+
+	System.out.println(fix23(Arrays.asList(1, 2, 3, 4))); // [1, 2, 0, 4]
+	System.out.println(fix23(Arrays.asList(2, 3, 5))); // [2, 0, 5]
+	System.out.println(fix23(Arrays.asList(1, 2, 1))); // [1, 2, 1]
+
+	public static List<Integer> fix23(List<Integer> nums) {
+  
+	}
+
+
+8. Tagasta kahest sisend Listist List, mille elementide summa on suurem.
+
+	System.out.println(biggerTwo(Arrays.asList(1, 2), Arrays.asList(3, 4))); // [3, 4]
+	System.out.println(biggerTwo(Arrays.asList(3, 4), Arrays.asList(1, 2))); // [3, 4]
+	System.out.println(biggerTwo(Arrays.asList(1, 2), Arrays.asList(1, 1))); // [1, 2]
+
+	public static List<Integer> biggerTwo(List<Integer> a, List<Integer> b) {
+  
+	}
+
+
+9. Tagasta List mis koosneb sisend Listi kahest keskmisest elemendist. Kui sisend Listi pikkus ei ole paarisarv, tagasta null.
+
+	System.out.println(makeMiddle(Arrays.asList(1, 2, 3, 4))); // [2, 3]
+	System.out.println(makeMiddle(Arrays.asList(7, 1, 2, 3, 4, 9))); // [2, 3]
+	System.out.println(makeMiddle(Arrays.asList(1, 2, 3))); // null
+
+	public static List<Integer> makeMiddle(List<Integer> nums) {
+  
+	}
+
+
+10. Sisendiks on List ja arv n. Tagasta sisend Listi n esimest elementi uue Listina. Kui Listi pikkus on väiksem kui n, tagasta terve List.
+
+	System.out.println(frontPiece(Arrays.asList(1, 2, 3, 4), 2)); // [1, 2]
+	System.out.println(frontPiece(Arrays.asList(1, 2, 3, 4), 3)); // [1, 2, 3]
+	System.out.println(frontPiece(Arrays.asList(1, 2, 3, 4), 10)); // [1, 2, 3, 4]
+
+	public static List<Integer> frontPiece(List<Integer> nums, int n) {
+  
+	}
